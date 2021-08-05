@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Meteo/static/css/main.ce0a2b6c.chunk.css",
+    "main.css": "/Meteo/static/css/main.fd98efeb.chunk.css",
     "main.js": "/Meteo/static/js/main.274a29e6.chunk.js",
     "main.js.map": "/Meteo/static/js/main.274a29e6.chunk.js.map",
     "runtime-main.js": "/Meteo/static/js/runtime-main.713ef9a5.js",
@@ -10,14 +10,14 @@
     "static/js/3.21a4c88c.chunk.js": "/Meteo/static/js/3.21a4c88c.chunk.js",
     "static/js/3.21a4c88c.chunk.js.map": "/Meteo/static/js/3.21a4c88c.chunk.js.map",
     "index.html": "/Meteo/index.html",
-    "static/css/main.ce0a2b6c.chunk.css.map": "/Meteo/static/css/main.ce0a2b6c.chunk.css.map",
+    "static/css/main.fd98efeb.chunk.css.map": "/Meteo/static/css/main.fd98efeb.chunk.css.map",
     "static/js/2.cbb3a184.chunk.js.LICENSE.txt": "/Meteo/static/js/2.cbb3a184.chunk.js.LICENSE.txt",
     "static/media/index.min.css": "/Meteo/static/media/thunderstorm.9312e6f8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.713ef9a5.js",
     "static/js/2.cbb3a184.chunk.js",
-    "static/css/main.ce0a2b6c.chunk.css",
+    "static/css/main.fd98efeb.chunk.css",
     "static/js/main.274a29e6.chunk.js"
   ]
 }
