@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/Meteo/static/css/main.056a28f8.chunk.css",
-    "main.js": "/Meteo/static/js/main.dcf49447.chunk.js",
-    "main.js.map": "/Meteo/static/js/main.dcf49447.chunk.js.map",
+    "main.css": "/Meteo/static/css/main.d2c21d24.chunk.css",
+    "main.js": "/Meteo/static/js/main.ac92bb0d.chunk.js",
+    "main.js.map": "/Meteo/static/js/main.ac92bb0d.chunk.js.map",
     "runtime-main.js": "/Meteo/static/js/runtime-main.99acaf94.js",
     "runtime-main.js.map": "/Meteo/static/js/runtime-main.99acaf94.js.map",
     "static/css/2.63ec5a3e.chunk.css": "/Meteo/static/css/2.63ec5a3e.chunk.css",
-    "static/js/2.67c73630.chunk.js": "/Meteo/static/js/2.67c73630.chunk.js",
-    "static/js/2.67c73630.chunk.js.map": "/Meteo/static/js/2.67c73630.chunk.js.map",
+    "static/js/2.0ae361ec.chunk.js": "/Meteo/static/js/2.0ae361ec.chunk.js",
+    "static/js/2.0ae361ec.chunk.js.map": "/Meteo/static/js/2.0ae361ec.chunk.js.map",
     "static/js/3.51f16259.chunk.js": "/Meteo/static/js/3.51f16259.chunk.js",
     "static/js/3.51f16259.chunk.js.map": "/Meteo/static/js/3.51f16259.chunk.js.map",
     "index.html": "/Meteo/index.html",
     "static/css/2.63ec5a3e.chunk.css.map": "/Meteo/static/css/2.63ec5a3e.chunk.css.map",
-    "static/css/main.056a28f8.chunk.css.map": "/Meteo/static/css/main.056a28f8.chunk.css.map",
-    "static/js/2.67c73630.chunk.js.LICENSE.txt": "/Meteo/static/js/2.67c73630.chunk.js.LICENSE.txt",
+    "static/css/main.d2c21d24.chunk.css.map": "/Meteo/static/css/main.d2c21d24.chunk.css.map",
+    "static/js/2.0ae361ec.chunk.js.LICENSE.txt": "/Meteo/static/js/2.0ae361ec.chunk.js.LICENSE.txt",
     "static/media/index.min.css": "/Meteo/static/media/thunderstorm.9312e6f8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.99acaf94.js",
     "static/css/2.63ec5a3e.chunk.css",
-    "static/js/2.67c73630.chunk.js",
-    "static/css/main.056a28f8.chunk.css",
-    "static/js/main.dcf49447.chunk.js"
+    "static/js/2.0ae361ec.chunk.js",
+    "static/css/main.d2c21d24.chunk.css",
+    "static/js/main.ac92bb0d.chunk.js"
   ]
 }
