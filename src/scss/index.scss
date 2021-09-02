@@ -1,0 +1,164 @@
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  min-width :100%;  
+}
+  
+main {
+  min-height:100vh;   
+}
+
+/*Input de la search-box ->searchBox.js*/
+.search-box{
+  text-align:right;  
+  width: 80%;    
+  margin: auto;  
+  .search-bar{
+    display: block;
+    width:100%;
+    background-color: rgba(255,255,255,0.75);    
+    font-size:18px;    
+  }    
+}
+/*boutons avec propositions de ville*/
+.cityList{   
+  display:flex;
+  text-align:center;
+  flex-direction: row;  
+}
+
+.invisible{
+  opacity:0;
+}
+
+/*zone de Réponse ->resultBox.js*/
+.textReponse {  
+  text-align: center;   
+  color:rga(0, 0, 0, 0.5);      
+  .location{  
+    font-size:16px;
+    font-weight:500;
+    text-shadow : 3px 3px rgba (50,50,70,0.5);
+    background-color: rgba(255,255,255,0.5);   
+    margin:auto;
+    width:50%; 
+  }   
+  .date{   
+    width:50%; 
+    font-size:16px;
+    font-weight:300;
+    text-shadow : 2px 2px rgba (50,50,70,0.5);
+    background-color: rgba(255,255,255,0.5);
+    margin: 10px auto; 
+  }
+  .température{   
+    margin : 10px auto;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 16px;
+    width:50%;
+    font-size:20px;
+    font-weight:900;
+    text-shadow : 3px 6px rgba (50,50,70,0.5);
+    box-shadow:3px 6px rgba(0,0,0,0.2);   
+
+  }
+  .weather{   
+    margin : auto;        
+    font-size:18px;
+    font-weight:600;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 16px;
+    width:70%;
+  }
+}
+
+/*gère l'affichage d'une image météo en fond d'écran*/
+.intro{
+  background-image: url('/media/sebou/Sauvegarde/Informatique/ProjetPerso/projet-meteo/src/img/intro.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+.Rain{
+  background-image: url('/media/sebou/Sauvegarde/Informatique/ProjetPerso/projet-meteo/src/img/rain.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Thunderstorm{
+  background-image: url('/media/sebou/Sauvegarde/Informatique/ProjetPerso/projet-meteo/src/img/thunderstorm.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Clouds{
+  background-image: url('/media/sebou/Sauvegarde/Informatique/ProjetPerso/projet-meteo/src/img/clouds.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;  
+}
+
+.Drizzle{
+  background-image: url('/media/sebou/Sauvegarde/Informatique/ProjetPerso/projet-meteo/src/img/drizzle.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Snow{
+  background-image: url('/media/sebou/Sauvegarde/Informatique/ProjetPerso/projet-meteo/src/img/snow.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Clear{
+  background-image: url('../../img/sun.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/*Affiche si besoin un message d'erreur -> erreurBox.js*/
+
+.textErreur {
+  text-align: center;   
+  color:rgba(255,255,255,1);
+  font-size :25px;
+} 
+
+/*Affiche la météo à 5 jours*/
+.fiveDayMeteo{    
+ padding-top:10px;    
+  display: flex;
+}
+
+.squareMeteo{  
+  border:black;
+  text-align: center; 
+  font-size: 12px; 
+  background-color: rgba(255,255,255,0.8);
+  &:hover{
+    background-color: #5bc0de;    
+  }
+}
+
+.tooltip {
+  pointer-events: auto;
+  &:hover {
+    visibility: visible ;
+    opacity: 1 ;
+  }
+}
+
+li{list-style:none}
